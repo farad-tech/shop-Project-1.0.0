@@ -1,0 +1,21 @@
+@import url(Bootstrap/bootstrap.min.css);
+@import url(Fonts/fontLoader.css);
+
+$primaryColorLight1: #FFF2E9;
+$primaryColorLight2: #FFCBA6;
+$primaryColorLight3: #FFAF76;
+$primaryColorLight4: #FF954B;
+$primaryColorLight5: #FF7B1D;
+
+$secondaryColorLight1: #F6EAFF;
+$secondaryColorLight2: #DCABFF;
+$secondaryColorLight3: #C97FFF;
+$secondaryColorLight4: #B856FF;
+$secondaryColorLight5: #A42BFC;
+
+$primaryFont: 'sourceSansPro';
+
+body{
+    background-color: $primaryColorLight1;
+    font-family: $primaryFont;
+}

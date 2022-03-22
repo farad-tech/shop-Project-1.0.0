@@ -1,0 +1,7 @@
+@import url(Bootstrap/bootstrap.min.css);
+@import url(Fonts/fontLoader.css);
+body {
+  background-color: #FFF2E9;
+  font-family: "sourceSansPro";
+}
+/*# sourceMappingURL=Style.css.map */
