@@ -16,7 +16,50 @@ $secondaryColorLight5: #A42BFC;
 
 $primaryFont: 'sourceSansPro';
 
+$transitionMeduimSpeed: 500ms;
+
+$rounded-1: 0.2rem;
+$rounded-2: 0.6rem;
+$rounded-3: 1rem;
+$rounded-4: 2rem;
+$rounded-5: 50rem;
+
 body{
-    background-color: $primaryColorLight1;
+    background-color: $secondaryColorLight1;
     font-family: $primaryFont;
+}
+
+.nav-date{
+    color: $secondaryColorLight3;
+}
+
+.navbar-nav{
+    .nav-item{
+        border: 0.1rem solid $primaryColorLight5;
+        margin: 0rem .5rem;
+        border-radius: $rounded-1 !important;
+
+        a{
+            color: $primaryColorLight5 !important;
+        }
+    }
+
+    .nav-item:hover{
+        border: 0.1rem solid $primaryColorLight2;
+        background-color: $primaryColorLight2;
+
+        a{
+            color: $primaryColorLight4 !important;
+        }
+    }
+}
+
+.dropdown-menu{
+    border: none !important;
+    background-color: $primaryColorLight1;
+    border-radius: $rounded-2 !important;
+
+    a:hover{
+        background-color: $primaryColorLight2;
+    }
 }

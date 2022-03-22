@@ -2,7 +2,40 @@
 @import url(Fonts/fontLoader.css);
 @import url(Bootstrap/icons/bootstrap-icons.css);
 body {
-  background-color: #FFF2E9;
+  background-color: #F6EAFF;
   font-family: "sourceSansPro";
+}
+
+.nav-date {
+  color: #C97FFF;
+}
+
+.navbar-nav .nav-item {
+  border: 0.1rem solid #FF7B1D;
+  margin: 0rem .5rem;
+  border-radius: 0.2rem !important;
+}
+
+.navbar-nav .nav-item a {
+  color: #FF7B1D !important;
+}
+
+.navbar-nav .nav-item:hover {
+  border: 0.1rem solid #FFCBA6;
+  background-color: #FFCBA6;
+}
+
+.navbar-nav .nav-item:hover a {
+  color: #FF954B !important;
+}
+
+.dropdown-menu {
+  border: none !important;
+  background-color: #FFF2E9;
+  border-radius: 0.6rem !important;
+}
+
+.dropdown-menu a:hover {
+  background-color: #FFCBA6;
 }
 /*# sourceMappingURL=Style.css.map */
