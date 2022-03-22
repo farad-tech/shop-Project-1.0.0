@@ -4,6 +4,8 @@
 body {
   background-color: #F6EAFF;
   font-family: "sourceSansPro";
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 
 .nav-date {
@@ -12,7 +14,7 @@ body {
 
 .navbar-nav .nav-item {
   border: 0.1rem solid #FF7B1D;
-  margin: 0rem .5rem;
+  margin: .1rem .5rem;
   border-radius: 0.2rem !important;
 }
 
@@ -37,5 +39,37 @@ body {
 
 .dropdown-menu a:hover {
   background-color: #FFCBA6;
+}
+
+.btn-primary {
+  border-radius: 0.6rem;
+  border: 0.1rem solid #DCABFF !important;
+  background-color: #F6EAFF;
+  color: #B856FF;
+}
+
+.btn-primary:hover {
+  border-radius: 0.6rem;
+  border: 0.1rem solid #B856FF !important;
+  background-color: #B856FF;
+  color: #F6EAFF;
+}
+
+.btn-primary:focus {
+  outline: #DCABFF solid 0.2rem;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.navbar-toggler {
+  color: #FF7B1D;
+  font-size: 18pt;
+}
+
+.navbar-toggler:hover {
+  color: black;
+  background-color: #FF7B1D;
 }
 /*# sourceMappingURL=Style.css.map */

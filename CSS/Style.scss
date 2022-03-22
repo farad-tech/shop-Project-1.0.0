@@ -27,6 +27,7 @@ $rounded-5: 50rem;
 body{
     background-color: $secondaryColorLight1;
     font-family: $primaryFont;
+    transition: $transitionMeduimSpeed;
 }
 
 .nav-date{
@@ -36,7 +37,7 @@ body{
 .navbar-nav{
     .nav-item{
         border: 0.1rem solid $primaryColorLight5;
-        margin: 0rem .5rem;
+        margin: .1rem .5rem;
         border-radius: $rounded-1 !important;
 
         a{
@@ -63,3 +64,38 @@ body{
         background-color: $primaryColorLight2;
     }
 }
+
+.btn-primary{
+    border-radius: $rounded-2;
+    border: 0.1rem solid $secondaryColorLight2 !important;
+    background-color: $secondaryColorLight1;
+    color: $secondaryColorLight4;
+
+}
+
+.btn-primary:hover{
+    border-radius: $rounded-2;
+    border: 0.1rem solid $secondaryColorLight4 !important;
+    background-color: $secondaryColorLight4;
+    color: $secondaryColorLight1;
+
+}
+
+.btn-primary:focus{
+    outline: $secondaryColorLight2 solid 0.2rem;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+.navbar-toggler{
+    color: $primaryColorLight5;
+    font-size: 18pt;
+}
+
+.navbar-toggler:hover{
+    color: black;
+    background-color: $primaryColorLight5;
+}
+
