@@ -1,5 +1,6 @@
 @import url(Bootstrap/bootstrap.min.css);
 @import url(Fonts/fontLoader.css);
+@import url(Bootstrap/icons/bootstrap-icons.css);
 body {
   background-color: #FFF2E9;
   font-family: "sourceSansPro";
