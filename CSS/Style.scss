@@ -2,27 +2,8 @@
 @import url(Fonts/fontLoader.css);
 @import url(Bootstrap/icons/bootstrap-icons.css);
 
-$primaryColorLight1: #FFF2E9;
-$primaryColorLight2: #FFCBA6;
-$primaryColorLight3: #FFAF76;
-$primaryColorLight4: #FF954B;
-$primaryColorLight5: #FF7B1D;
-
-$secondaryColorLight1: #F6EAFF;
-$secondaryColorLight2: #DCABFF;
-$secondaryColorLight3: #C97FFF;
-$secondaryColorLight4: #B856FF;
-$secondaryColorLight5: #A42BFC;
-
-$primaryFont: 'sourceSansPro';
-
-$transitionMeduimSpeed: 500ms;
-
-$rounded-1: 0.2rem;
-$rounded-2: 0.6rem;
-$rounded-3: 1rem;
-$rounded-4: 2rem;
-$rounded-5: 50rem;
+@import "Variables";
+@import "Mixins";
 
 body{
     background-color: $secondaryColorLight1;
@@ -97,5 +78,9 @@ body{
 .navbar-toggler:hover{
     color: black;
     background-color: $primaryColorLight5;
+}
+
+.btn-submit{
+    @include buttons($primaryColorLight1, $primaryColorLight4);
 }
 

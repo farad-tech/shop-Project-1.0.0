@@ -1,0 +1,13 @@
+@mixin buttons($lighterColor, $darkerColor){
+    border: 0.1rem solid $darkerColor;
+    background-color: $darkerColor;
+    color: $lighterColor;
+    font-size: 14pt;
+    max-width: min-content;
+
+    &:hover{
+        background-color: $lighterColor;
+        color: $darkerColor;
+    }
+    
+}
