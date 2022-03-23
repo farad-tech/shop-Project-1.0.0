@@ -6,7 +6,7 @@
             <input class="form-control" type="text" name="imageLink" id="imageLinkID" placeholder="Enter the image link">
             <label for="#imageLinkID">Title</label>
             <input class="form-control" type="text" name="imageTitle" id="imageTitleID" placeholder="Enter the title of the images">
-            <button class="btn my-4 btn-submit" type="submit">Submit</button>
+            <button class="btn my-4 btn-submit" type="submit" name="imageCarouselSubmit">Submit</button>
         </div>
     </form>
 </main>
