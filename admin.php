@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+require_once "PHP/manageDB.php";
+require_once "PHP/Functions.php";
 require_once "Components/HTMLHead.php";
 require_once "Components/CallJS.php";
 
