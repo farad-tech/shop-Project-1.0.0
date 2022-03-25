@@ -1,7 +1,6 @@
 <?php
 
-function checktoBeNotEmpty($desiredVariable)
-{
+function checktoBeNotEmpty($desiredVariable) {
 
     if (empty($desiredVariable)) {
         global $ErrorMessage;
@@ -13,14 +12,20 @@ function checktoBeNotEmpty($desiredVariable)
     }
 }
 
-function errorMessage($messageText)
-{
+function errorMessage($messageText) {
     
     echo "<p class='alert alert-danger mt-3' role='alert'>$messageText</p>";
 }
 
-function successMessage($messageText){
+function successMessage($messageText) {
     
     
     echo "<p class='alert alert-success mt-3' role='alert'>$messageText</p>";
+}
+
+function callComponentsByGETMethod($nameOfGETMethod, $theComponentMostBeCalled) {
+
+    if(isset($_GET["$nameOfGETMethod"])){
+        require_once "$theComponentMostBeCalled";
+    }   
 }
