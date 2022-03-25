@@ -6,7 +6,7 @@
         </div>
         <label for="#imageLinkID">Image Link</label>
         <input class="form-control" type="text" name="imageLink" id="imageLinkID" placeholder="Enter the image link">
-        <label for="#imageLinkID">Title</label>
+        <label for="#imageTitleID">Title</label>
         <input class="form-control" type="text" name="imageTitle" id="imageTitleID" placeholder="Enter the title of the images">
         <?php
         if (isset($ErrorMessage)) {
