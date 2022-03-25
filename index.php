@@ -14,6 +14,7 @@ echo "<body>";
 
 require_once "Components/headerNav.php";
 require_once "Components/carouselLine.php";
+require_once "Components/mainofFirstPage.php";
 JavaScript("Javascript/Bootstrap/bootstrap.bundle.min.js");
 
 echo "</body>";
